@@ -1,0 +1,5 @@
+暫存commit stash 
+
+從每個commit執行什麼動作 git filter-branch --tree-filter "rm -f config\..."
+
+取得想要的各別commit git cherry-pick SHA-1 --no-commit
